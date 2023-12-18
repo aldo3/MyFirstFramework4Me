@@ -11,7 +11,7 @@ public class Common{
     
     public static func doSomething(){
         
-        print("I'M DOING GOOD THINGS......")
+        print("I'M DOING GOOD THINGS   more to come......in 1.0.1")
         
         
     }

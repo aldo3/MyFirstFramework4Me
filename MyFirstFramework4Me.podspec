@@ -9,13 +9,13 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MyFirstFramework4Me"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "My first try"
   spec.homepage     = "https://github.com/aldo3/MyFirstFramework4Me"
   spec.license      = "MIT"
   spec.author             = { "Al Dockett" => "al.dockett@gmail.com" }
   spec.platform     = :ios,'16.4'
   spec.source       = { :git => "https://github.com/aldo3/MyFirstFramework4Me.git", :tag => "#{spec.version}" }
-  spec.source_files  = "MyFirstFramework4Me", "Classes/**/*.{h,m}"
- 
+  spec.source_files  = "MyFirstFramework4Me", "Classes/**/*.*"
+
 end
